@@ -1,0 +1,13 @@
+body {
+  background: #212c3b;
+}
+
+.monaco-editor,
+.overflow-guard {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.monaco-scrollable-element {
+  width: calc(100% - 64px) !important;
+}
